@@ -1,0 +1,56 @@
+# База данных SQLite (если используется локально)
+db.sqlite3
+db.sqlite3-journal
+db.sqlite3-wal
+db.sqlite3-shm
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Виртуальное окружение
+.venv/
+venv/
+
+# Переменные окружения
+.env
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Django
+*.log
+local_settings.py
+
+# Медиа и собранная статика (генерируются на сервере/в контейнере)
+media/
+staticfiles/
+
+# IDE/редактор
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Test environment
+.env.test
