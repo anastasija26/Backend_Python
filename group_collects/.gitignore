@@ -55,4 +55,4 @@ staticfiles/
 # Test environment
 .env.test
 
-.goutputstream
+.goutputstream-*
